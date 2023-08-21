@@ -21,3 +21,23 @@ limit_time_cpu = 600
 limit_time_real = 1200
 max_cron_threads = 1
 workers = 2
+
+# [Wkhtmltopdf](https://wkhtmltopdf.org/ "Wkhtmltopdf's Homepage") Install Script
+
+Wkhtmltopdf Script for Ubuntu
+
+## Installation procedure
+
+##### 1. Download the script:
+```
+sudo wget https://raw.githubusercontent.com/jjackofall/OdooInstallScript/main/wkhtmltopdf_install.sh
+```
+
+#### 2. Make the script executable
+```
+sudo chmod +x wkhtmltopdf_install.sh
+```
+##### 4. Execute the script:
+```
+sudo ./wkhtmltopdf_install.sh
+```
