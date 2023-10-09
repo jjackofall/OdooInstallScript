@@ -7,7 +7,7 @@ limit-memory-hard = workers * 768MB
 
 limit-memory-soft - 4 * 640 * 1024 * 1024
 
-##Worker number calculation
+## Worker number calculation
 ### Rule of thumb : (#CPU * 2) + 1
 
 Cron workers need CPU
